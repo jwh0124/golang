@@ -14,7 +14,7 @@ type helloWorldResponse struct {
 	// 값이 비어 있으면 필드를 출력하지 않는다.
 	Date string `json:",omitempty"`
 	// 출력을 문자열로 변환하고 이름을 "id"로 바꾼다.
-	Id int `json:"id,string"`
+	//Id int `json:"id,string"`
 }
 
 func main() {
